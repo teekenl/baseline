@@ -38,6 +38,7 @@ npm-install:
 
 start:
 	pushd ${radish34} && \
+	npm run deploy && \
 	docker-compose up -d && \
 	popd
 
